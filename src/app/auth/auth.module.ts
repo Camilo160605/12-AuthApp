@@ -5,7 +5,7 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { AuthLayoutComponent } from './layout/auth-layout/auth-layout.component';
-import { AuthComponent } from './services/auth/auth.component';
+// import { AuthComponent } from './services/auth/auth.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -15,7 +15,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     LoginPageComponent,
     RegisterPageComponent,
     AuthLayoutComponent,
-    AuthComponent
+   // AuthComponent
   ],
   imports: [
     CommonModule,
